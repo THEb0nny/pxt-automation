@@ -1,17 +1,20 @@
 {
     "name": "automation",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Automation, Process Control, Systems and Controls",
+    "icon": "icon.png",
     "files": [
         "README.md",
         "ns.ts",
         "behaviors.ts",
         "pid.ts"
     ],
-    "testFiles": [],
+    "testFiles": [
+        "test.ts"
+    ],
     "public": true,
     "dependencies": {
-        "core": "*"
+        "core": "file:../core"
     },
     "preferredEditor": "tsprj"
 }
