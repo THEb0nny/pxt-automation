@@ -2,6 +2,7 @@
     "name": "automation",
     "version": "0.0.4",
     "description": "Automation, Process Control, Systems and Controls",
+    "license": "MIT",
     "icon": "icon.png",
     "files": [
         "README.md",
@@ -14,7 +15,7 @@
     ],
     "public": true,
     "dependencies": {
-        "core": "file:../core"
+        "core": "*"
     },
     "preferredEditor": "tsprj"
 }
