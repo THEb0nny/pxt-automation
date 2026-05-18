@@ -8,10 +8,13 @@
         "behaviors.ts",
         "pid.ts"
     ],
-    "testFiles": [],
+    "testFiles": [
+        "test.ts"
+    ],
     "public": true,
     "dependencies": {
         "core": "*"
     },
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "icon": "icon.png"
 }
